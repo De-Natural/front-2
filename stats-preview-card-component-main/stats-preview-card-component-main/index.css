@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    /* font-size: 18px; */
+}
+
+.container{
+    height: 750px;
+    width: 1440px;
+    background-color: aliceblue;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 600px;
+    width: 950px;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.stand{
+    height: 350px;
+    width: 800px;
+    /* border: 1px solid white; */
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.write{
+    height: 340px;
+    width: 400px;
+    /* border: 1px solid red; */
+    background-color: hsl(244, 38%, 16%);
+    text-align: center;
+    color: white;
+}
+.write span{
+    color:  hsl(244, 58%, 66%);
+}
+.write p{
+    font-weight: lighter;
+    font-style: normal;
+    opacity: 0.8;
+}
+.pic{
+    height: 340px;
+    width: 400px;
+    /* border: 1px solid yellow; */
+}
+#long{
+    display: flex;
+    height: 150px;
+    width: 300px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: white;
+}

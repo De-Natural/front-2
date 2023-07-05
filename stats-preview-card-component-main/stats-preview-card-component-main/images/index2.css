@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    /* font-size: 18px; */
+}
+
+.box{
+    height: 850px;
+    width: 350px;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    margin: auto;
+}
+
+.stand{
+    height: 700px;
+    width: 300px;
+    /* border: 1px solid white; */
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.pic{
+    height: 250px;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+.write{
+    height: 450px;
+    width: 300px;
+    /* border: 1px solid yellow; */
+    text-align: center;
+    color: white;
+    background-color:  hsl(244, 38%, 16%);
+}
+
+#long{
+    /* border: 1px solid white; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
