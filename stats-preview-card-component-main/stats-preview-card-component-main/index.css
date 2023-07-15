@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-family: 'Outfit', sans-serif;
-    /* font-size: 18px; */
 }
 
 .container{
@@ -34,16 +33,18 @@
 .stand{
     height: 350px;
     width: 800px;
-    /* border: 1px solid white; */
     margin: auto;
     align-items: center;
     justify-content: center;
     display: flex;
 }
+.pic{
+    height: 340px;
+    width: 400px;
+}
 .write{
     height: 340px;
     width: 400px;
-    /* border: 1px solid red; */
     background-color: hsl(244, 38%, 16%);
     text-align: center;
     color: white;
@@ -56,17 +57,72 @@
     font-style: normal;
     opacity: 0.8;
 }
-.pic{
-    height: 340px;
-    width: 400px;
-    /* border: 1px solid yellow; */
-}
+
 #long{
     display: flex;
     height: 150px;
     width: 300px;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-bottom: 20px;
     color: white;
+}
+
+@media (max-width: 650px) {
+    .container{
+        height: 950px;
+        width: 500px;
+        background-color: aliceblue;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box{
+        height: 900px;
+        width: 350px;
+        background-color: hsl(233, 47%, 7%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 10px;
+        margin: auto;
+    }
+    
+    .stand{
+        height: 700px;
+        width: 300px;
+        border-radius: 8px;
+        margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic{
+        height: 250px;
+        width: 300px;
+    }
+    .pic img{
+        height: 250px;
+        width: 300px;
+        border-radius: 10px 10px 0 0;
+    }
+    .write{
+        height: 550px;
+        width: 300px;
+        text-align: center;
+        color: white;
+        background-color:  hsl(244, 38%, 16%);
+    }
+    
+    #long{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100px;
+        margin-left: 100px;
+    }
 }
